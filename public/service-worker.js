@@ -1,16 +1,14 @@
 const CACHE_NAME = "static-cache-v2";
 const DATA_CACHE_NAME = "data-cache-v1";
 const FILES_TO_CACHE = [
-    "/",
-    "/db.js",
-    "/index.js",
-    "/index.html",
-    "/routes/api.js",
-    "/style.css",
-    "/favicon.ico",
-    "/manifest.webmanifest",
-    "/icons/icon-192x192.png",
-    "/icons/icon-512x512.png",
+    "./",
+    "./db.js",
+    "./index.js",
+    "./index.html",
+    "./styles.css",
+    "./manifest.webmanifest",
+    "./icons/icon-192x192.png",
+    "./icons/icon-512x512.png",
 ];
 
 // install
